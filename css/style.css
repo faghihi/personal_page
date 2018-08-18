@@ -753,7 +753,15 @@ ul.timeline li .data .text {
 	padding: 20px 0 30px 0 !important;
 }
 
+#filters1,.filters,#pub-grid1 {
+	padding: 20px 0 30px 0 !important;
+}
+
 #filters h3,.filters h3,div#sort {
+	margin-top: 30px;
+}
+
+#filters1 h3,.filters h3,div#sort {
 	margin-top: 30px;
 }
 
@@ -761,6 +769,9 @@ ul.timeline li .data .text {
 	line-height: 30px;
 }
 
+#sort1 span {
+	line-height: 30px;
+}
 .stuck {
 	position: fixed !important;
 	z-index: 1001;
@@ -868,6 +879,13 @@ ul.timeline li .data .text {
 /* publications
  **************************************************/
 #pub-grid .mix {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	display: none;
+}
+
+#pub-grid1 .mix {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
